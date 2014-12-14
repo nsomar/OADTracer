@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'OADTracerExample', :exclusive => true do
+  pod "OADTracer", :path => "../"
+end
+
+target 'OADTracerExampleTests', :exclusive => true do
+  pod "OADTracer", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+  pod 'OCMock'
+end
