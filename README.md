@@ -1,6 +1,6 @@
 # OADTracer
 
-[![CI Status](http://img.shields.io/travis/Omar Abdelhafith/OADTracer.svg?style=flat)](https://travis-ci.org/Omar Abdelhafith/OADTracer)
+[![Build Status](https://travis-ci.org/oarrabi/OADTracer.svg?branch=master)](https://travis-ci.org/oarrabi/OADTracer)
 [![Version](https://img.shields.io/cocoapods/v/OADTracer.svg?style=flat)](http://cocoadocs.org/docsets/OADTracer)
 [![License](https://img.shields.io/cocoapods/l/OADTracer.svg?style=flat)](http://cocoadocs.org/docsets/OADTracer)
 [![Platform](https://img.shields.io/cocoapods/p/OADTracer.svg?style=flat)](http://cocoadocs.org/docsets/OADTracer)

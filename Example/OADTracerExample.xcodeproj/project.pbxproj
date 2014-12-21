@@ -15,13 +15,10 @@
 		6003F59E195388D20070C39A /* OAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* OAAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* OAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* OAViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		81C7152A3691BD997D5523E3 /* libPods-OADTracerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD55E7ECA163F41C396AF0A0 /* libPods-OADTracerExample.a */; };
-		A7A004041A46386200FC479A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A004031A46386200FC479A /* libPods-Tests.a */; };
 		A7A004081A4638DE00FC479A /* OADTracerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A004071A4638DE00FC479A /* OADTracerSpec.m */; };
-		A7A0040B1A4638ED00FC479A /* Pods-OADTracerExampleTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7A004091A4638ED00FC479A /* Pods-OADTracerExampleTests.debug.xcconfig */; };
-		A7A0040C1A4638ED00FC479A /* Pods-OADTracerExampleTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7A0040A1A4638ED00FC479A /* Pods-OADTracerExampleTests.release.xcconfig */; };
 		A7A0040E1A465A5800FC479A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
 		A7A0040F1A465A5C00FC479A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A2195388D20070C39A /* Main_iPad.storyboard */; };
+		A7A004111A4666F200FC479A /* libPods-OADTracerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A004101A4666F200FC479A /* libPods-OADTracerExample.a */; };
 		B98DEF1A69942B1883697874 /* libPods-OADTracerExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBA1AF721EEFC71EB4DD177 /* libPods-OADTracerExampleTests.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +61,7 @@
 		A7A004091A4638ED00FC479A /* Pods-OADTracerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-OADTracerExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OADTracerExampleTests/Pods-OADTracerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7A0040A1A4638ED00FC479A /* Pods-OADTracerExampleTests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-OADTracerExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OADTracerExampleTests/Pods-OADTracerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7A0040D1A463BA200FC479A /* OADTracer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = OADTracer.podspec; path = ../OADTracer.podspec; sourceTree = "<group>"; };
+		A7A004101A4666F200FC479A /* libPods-OADTracerExample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-OADTracerExample.a"; path = "Pods/build/Debug-iphoneos/libPods-OADTracerExample.a"; sourceTree = "<group>"; };
 		BFF8DA396CD7FFDC55EF8917 /* libPods-OADTracer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OADTracer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C615E55F0E30A0C50E14AA37 /* libPods-RequestTracer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RequestTracer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBA1AF721EEFC71EB4DD177 /* libPods-OADTracerExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OADTracerExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,10 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A004111A4666F200FC479A /* libPods-OADTracerExample.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				81C7152A3691BD997D5523E3 /* libPods-OADTracerExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A004041A46386200FC479A /* libPods-Tests.a in Frameworks */,
 				B98DEF1A69942B1883697874 /* libPods-OADTracerExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +127,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7A004101A4666F200FC479A /* libPods-OADTracerExample.a */,
 				A7A004051A46387800FC479A /* libPods-OADTracerExample.a */,
 				A7A004031A46386200FC479A /* libPods-Tests.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
@@ -291,8 +289,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A0040C1A4638ED00FC479A /* Pods-OADTracerExampleTests.release.xcconfig in Resources */,
-				A7A0040B1A4638ED00FC479A /* Pods-OADTracerExampleTests.debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +495,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OADTracer/OADTracerExample-Prefix.pch";
 				INFOPLIST_FILE = "OADTracer/OADTracerExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = OADTracerExample;
 				WRAPPER_EXTENSION = app;
 			};
@@ -513,6 +513,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OADTracer/OADTracerExample-Prefix.pch";
 				INFOPLIST_FILE = "OADTracer/OADTracerExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = OADTracerExample;
 				WRAPPER_EXTENSION = app;
 			};
